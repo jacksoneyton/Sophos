@@ -1,0 +1,2 @@
+
+INSERT INTO `virusscanners` (`Name`,`DefLocation`,`DefFilename`,`ProgLocation`,`UpdateCMD`,`ScanTemplate`,`AutoProtect`,`OsType`,`VersionCheck`,`VersionMask`,`InfectionCheck`,`InfectionMatch`,`GUID`) Values('Sophos 32bit','%ProgramData%\\Sophos\\AutoUpdate\\data\\status\\sophosupdatestatus.xml','(.*)','{%-HKLM\\SOFTWARE\\Sophos\\SAVService\\Application:Path-%}sav32cli.exe','\"{%-HKLM\\SOFTWARE\\Sophos\\SAVService\\Application:Path-%}ALUpdate.exe\"','-nmbr %p','savservice*','4','','','','','ee37751c-b6be-4570-94dc-84f36a6c6b0c');

@@ -1,0 +1,5 @@
+INSERT INTO extrafielddata VALUES('%clientid%', (SELECT id FROM extrafield WHERE NAME LIKE '%SophosCloud%x-api-key%'),(SELECT VALUE FROM plugin_labtech_rdk_controls_extra WHERE NAME LIKE 'Rapid Dev Kit_0_%clientid%_SophosCloud_x_api_key_Value_Text'))
+  ON DUPLICATE KEY UPDATE VALUE = (SELECT VALUE	FROM plugin_labtech_rdk_controls_extra WHERE NAME LIKE 'Rapid Dev Kit_0_%clientid%_SophosCloud_x_api_key_Value_Text');
+
+INSERT INTO extrafielddata VALUES('%clientid%', (SELECT id FROM extrafield WHERE NAME LIKE '%SophosCloud%Authorization%'),(SELECT VALUE FROM plugin_labtech_rdk_controls_extra WHERE NAME LIKE 'Rapid Dev Kit_0_%clientid%_SophosCloud_Authorization_Value_Text'))
+  ON DUPLICATE KEY UPDATE VALUE = (SELECT VALUE FROM plugin_labtech_rdk_controls_extra WHERE NAME LIKE 'Rapid Dev Kit_0_%clientid%_SophosCloud_Authorization_Value_Text');
