@@ -1,0 +1,2 @@
+
+INSERT INTO `extrafield` (`Form`,`Name`,`Sort`,`NoBreak`,`FType`,`Section`,`UnEditable`,`Collapsed`,`Fill`,`LtGuid`,`IsPassword`,`IsEncrypted`,`IsHidden`,`IsRestricted`,`ViewPermissions`,`EditPermissions`) Values('3','SophosCloud Authorization','3','0','0','Virus Config Settings','1','0','SophosCloud Auth value, See ITGlue doc: ','25548513-b74c-4dd0-91fa-6cad1c2f81cb','False','False','False','False','','');

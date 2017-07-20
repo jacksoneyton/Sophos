@@ -1,0 +1,2 @@
+
+INSERT INTO `extrafield` (`Form`,`Name`,`Sort`,`NoBreak`,`FType`,`Section`,`UnEditable`,`Collapsed`,`Fill`,`LtGuid`,`IsPassword`,`IsEncrypted`,`IsHidden`,`IsRestricted`,`ViewPermissions`,`EditPermissions`) Values('3','SophosCloud x-api-key','2','0','0','Virus Config Settings','1','0','X-API-KEY for SophosCentral, see ITGlue Doc here:','04a605c5-16aa-11e5-820a-0050569b1f09','False','False','False','False','','');

@@ -1,0 +1,2 @@
+
+INSERT INTO `extrafield` (`Form`,`Name`,`Sort`,`NoBreak`,`FType`,`Section`,`UnEditable`,`Collapsed`,`Fill`,`LtGuid`,`IsPassword`,`IsEncrypted`,`IsHidden`,`IsRestricted`,`ViewPermissions`,`EditPermissions`) Values('3','Enable SophosCloud Deployment','1','0','1','Virus Config Settings','1','0','Checking this box will enable automatic deployment of SophosCloud and remove any other AV.','212dbb45-ed1b-4cc6-aefa-247e4ffc19cb','False','False','False','False','','');
